@@ -1,0 +1,9 @@
+.logo_full {
+  display: flex;
+  align-items: center;
+}
+
+.logo_img {
+  width: 20px;
+  margin-right: 10px;
+}
