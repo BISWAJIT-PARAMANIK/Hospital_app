@@ -63,7 +63,7 @@ const Nav = () => {
                   Blog
                 </a>
               </li>
-              <li className="nav-item mt-3 mt-lg-0">
+              <li className="nav-item mt-3 mt-lg-2">
                 <a className="nav-link " href="#contact">
                   Contact
                 </a>
