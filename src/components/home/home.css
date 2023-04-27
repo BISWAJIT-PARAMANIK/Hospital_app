@@ -18,6 +18,14 @@
   align-items: flex-end;
   justify-content: center;
 }
+.banner_wrapper .animate-img {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 22;
+}
 .homepageicons {
   width: 70px;
   width: 70px;
@@ -27,8 +35,46 @@
 .aimg2 {
   width: 200px;
 }
-.aimg3 {
-  width: 300px;
+.aimg2 {
+  margin-left: 15.5rem;
   position: relative;
-  bottom: 60px;
+  bottom: 25px;
+  -webkit-animation-name: movebounce;
+  animation-name: movebounce;
+  -webkit-animation-delay: 200ms;
+  animation-delay: 200ms;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+.aimg1 {
+  position: absolute;
+  left: -5.6875rem;
+  -webkit-animation-name: movebounce;
+  animation-name: movebounce;
+  -webkit-animation-delay: 100ms;
+  animation-delay: 100ms;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+.aimg3 {
+  width: 350px;
+  position: relative;
+  bottom: 10px;
+  right: 55px;
+}
+.home .card:hover {
+  -webkit-transform: translateY(-0.625rem);
+  transform: translateY(-0.625rem);
 }

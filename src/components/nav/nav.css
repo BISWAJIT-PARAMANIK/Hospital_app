@@ -43,3 +43,8 @@
   box-shadow: 0.5084rem 1.419rem 2.5rem 0 rgb(0 0 0/8%);
   transition: 0.3% ease-in-out;
 }
+@media (max-width: 1199.5px) {
+  .header_wrapper .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
+}
