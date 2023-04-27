@@ -7,6 +7,7 @@
   width: 20px;
   margin-right: 10px;
 }
+
 .header_wrapper .navbar {
   padding: 0.9375rem 0;
   background: transparent;
@@ -33,7 +34,7 @@
 .header_wrapper .nav-item .nav-link:active {
   color: var(--secondary-color);
 }
-.navbar.header-scrolled {
+.header-scrolled {
   position: fixed;
   top: 0;
   left: 0;
@@ -46,5 +47,13 @@
 @media (max-width: 1199.5px) {
   .header_wrapper .navbar-nav .nav-link {
     font-size: 1rem;
+  }
+}
+@media (max-width: 991px) {
+  .header_scrolled {
+    height: auto;
+  }
+  .header_wrapper .nav-item .nav-link {
+    margin-top: 0.9375rem;
   }
 }

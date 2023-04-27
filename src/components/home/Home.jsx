@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import nurse from "../../images/nurse1.png";
+import nurse from "../../images/nurse.png";
 import doctor from "../../images/doctor1.png";
 import helpdesk from "../../images/can-i-help-you-.png";
 import appointment from "../../images/appointment.png";

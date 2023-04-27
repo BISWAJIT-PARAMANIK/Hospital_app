@@ -1,12 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../images/icon.jpg";
 import { AiOutlineMenu } from "react-icons/ai";
 import "./nav.css";
 
 const Nav = () => {
+  const [fix, setFix] = useState(false);
+  function handleScroll() {
+    if (window.scrollY > 100) {
+      setFix(true);
+    } else {
+      setFix(false);
+    }
+  }
+  window.addEventListener("scroll", handleScroll);
   return (
     <header className="header_wrapper">
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav
+        className={
+          fix
+            ? "navbar navbar-expand-lg bg-body-tertiary header-scrolled"
+            : "navbar navbar-expand-lg bg-body-tertiary"
+        }
+      >
         <div className="container-fluid">
           <a className="navbar-brand logo_full" href="#">
             <img src={logo} className="img-fluid logo_img" />

@@ -78,3 +78,8 @@
   -webkit-transform: translateY(-0.625rem);
   transform: translateY(-0.625rem);
 }
+@media (max-width: 991px) {
+  .banner_wrapper p {
+    max-width: 100%;
+  }
+}
