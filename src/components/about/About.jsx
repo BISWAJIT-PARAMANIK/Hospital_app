@@ -14,9 +14,9 @@ const About = () => {
               <img src={doctor} alt="" className="about-animate" />
             </div>
           </div>
-          <div className="col-md-6 text-center text-md-start">
-            <h2>Welcome to the Family</h2>
-            <p>
+          <div className="col-md-6 text-center text-md-start ">
+            <h2 className="text-center">Welcome to the Family</h2>
+            <p className="text-center">
               We are here to always help you and your cared ones. Our main
               priority is the patient first.
             </p>

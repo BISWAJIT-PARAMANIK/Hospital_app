@@ -1,8 +1,9 @@
 .about_wrapper h2 {
-  color: var(--test-black);
+  color: var(--text-black);
 }
 .about_wrapper .card {
   width: 80%;
+  height: 65%;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -17,7 +18,7 @@
 }
 .about_wrapper .about-clinic:nth-child(2),
 .about_wrapper .about-clinic:nth-child(4) {
-  margin-bottom: 2.5rem;
+  padding-left: 2.5rem;
 }
 .about_wrapper .line-1,
 .about_wrapper .line-2 {
@@ -37,7 +38,8 @@
 .about_wrapper .about-chamber {
   position: relative;
   top: 3rem;
-  height: 25rem;
+  height: 25.5rem;
+  border-radius: 2rem;
 }
 .about_wrapper .about-animate {
   position: absolute;
@@ -45,5 +47,50 @@
   left: 19rem;
   top: 10rem;
   -webkit-animation: movebounce 3s linear infinite;
-  animation: movebounce 1s linear infinite;
+  animation: movebounce 2s linear infinite;
+}
+@media (max-width: 1199.5px) {
+  .about_wrapper .card {
+    width: 100%;
+  }
+  .about_wrapper .about-animate {
+    left: 12.9375rem;
+  }
+  .about_wrapper h2 {
+    font-size: 2.6rem;
+  }
+}
+@media (max-width: 991px) {
+  .about_wrapper h2 {
+    font-size: 2rem;
+  }
+  .about_wrapper .about-clinic:nth-child(1),
+  .about_wrapper .about-clinic:nth-child(2) {
+    margin-bottom: 2.8625rem;
+  }
+  .about_wrapper .about-clinic:nth-child(2),
+  .about_wrapper .about-clinic:nth-child(4) {
+    padding-left: 2.375rem;
+  }
+  .about_wrapper .about-chamber {
+    height: 21.125rem;
+  }
+  .about_wrapper .about-animate {
+    width: 60%;
+    left: 9.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .row {
+    gap: 2rem;
+  }
+
+  .about_wrapper .about-animate {
+    width: 45%;
+    left: 18rem;
+    top: 8.5rem;
+  }
+  .about-clinic p {
+    text-align: center;
+  }
 }
