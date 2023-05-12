@@ -1,0 +1,49 @@
+.team-doctor {
+  border: 2px solid var(--primary-color);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 20px var(--primary-color);
+}
+.team_wrapper .card {
+  padding: 1.25rem;
+}
+.team_wrapper .card:hover {
+  -webkit-transform: translateY(-0.625rem);
+  transform: translateY(-0.625rem);
+}
+.team_wrapper .team-img {
+  margin: 0 auto;
+}
+.team_wrapper .team-info .social-network {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: 0.625rem 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team_wrapper .team-info .social-network li a {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  line-height: 1.5625rem;
+  display: block;
+  border-radius: 0.3125rem;
+  margin: 0 0.3125rem;
+  font-size: 0.75rem;
+  background-color: var(--bg-dark);
+  color: var(--text-white);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.team_wrapper .team-info .social-network li a:hover {
+  background-color: var(--secondary-color);
+}
+.team-info p {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .team-doctor {
+    width: 40rem;
+    height: 30rem;
+  }
+}
