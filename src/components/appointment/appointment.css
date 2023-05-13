@@ -1,0 +1,10 @@
+.appointment_wrapper {
+  background-image: url(../../images/gallery/gallerybackground.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.appointment_wrapper img {
+  -webkit-animation: movebounce 3s linear infinite;
+  animation: movebounce 2s linear infinite;
+}

@@ -16,10 +16,10 @@ const Gallery = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4 col-sm-5 mb-4">
+          <div className="col-md-3 col-sm-5 mb-4">
             <img src={gallery1} alt="gallery1" className="w-100 h-100" />
           </div>
-          <div className=" offset-md-0 col-md-5 offset-sm-1 col-sm-5 mb-4">
+          <div className=" offset-md-0 col-md-6 offset-sm-1 col-sm-5 mb-4">
             <img src={gallery2} alt="gallery2" className="w-100 h-100" />
           </div>
           <div className="col-md-3 col-sm-5 mb-4">

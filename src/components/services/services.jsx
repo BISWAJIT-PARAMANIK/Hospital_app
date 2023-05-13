@@ -8,7 +8,7 @@ import services6 from "../../images/sevices6.png";
 
 import "./services.css";
 
-const services = () => {
+const Services = () => {
   return (
     <section id="services" className="services_wrapper wrapper">
       <div className="container">
@@ -114,4 +114,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default Services;

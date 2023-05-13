@@ -1,0 +1,16 @@
+.testimonial_wrapper .card {
+  background-color: rgba(252, 81, 133, 0.05);
+}
+.client-img {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  .client-img {
+    width: 14rem;
+    height: 14rem;
+  }
+}

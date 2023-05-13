@@ -7,7 +7,7 @@ import { FaTwitter } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FaInstagram } from "react-icons/fa";
 import "./team.css";
-const team = () => {
+const Team = () => {
   return (
     <section id="team" className="team_wrapper wrapper">
       <div className="container">
@@ -134,4 +134,4 @@ const team = () => {
   );
 };
 
-export default team;
+export default Team;
