@@ -1,0 +1,9 @@
+.gallery_wrapper {
+  background-image: url(../../images/gallery/gallerybackground.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gallery_wrapper img {
+  border-radius: 0.9375rem;
+}

@@ -6,7 +6,7 @@ import Footer from "./footer/Footer";
 import Home from "./home/Home";
 import Team from "./team/team";
 import Services from "./services/services";
-
+import Gallery from "./gallery/gallery";
 const MainPage = () => {
   return (
     <>
@@ -14,7 +14,9 @@ const MainPage = () => {
       <Home />
       <About />
       <Services />
+
       <Team />
+      <Gallery />
       <Testimonial />
       <Footer />
     </>
